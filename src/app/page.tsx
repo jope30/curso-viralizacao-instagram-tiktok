@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from 'react'
-import { ChevronLeft, ChevronRight, Play, Users, TrendingUp, Camera, Hash, Clock, Target, Zap, BarChart3, Star } from 'lucide-react'
+import { ChevronLeft, ChevronRight, Play, Users, TrendingUp, Camera, Hash, Clock, Target, Zap, BarChart3, Star, Gift, MessageCircle } from 'lucide-react'
 
 const modules = [
   {
@@ -285,6 +285,89 @@ export default function ViralCourse() {
           </div>
         </div>
       </header>
+
+      {/* Bonus Buttons */}
+      <div className="bg-gradient-to-r from-purple-900/50 to-black/50 border-b border-purple-800/30">
+        <div className="max-w-6xl mx-auto p-6">
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* Bonus 1 - Templates */}
+            <div className="bg-gradient-to-br from-purple-800/30 to-purple-900/30 rounded-2xl p-6 border border-purple-600/50 hover:border-purple-500 transition-all duration-300 group cursor-pointer">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="p-3 bg-gradient-to-br from-purple-500 to-purple-700 rounded-xl group-hover:scale-110 transition-transform duration-300">
+                  <Gift className="w-8 h-8" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-purple-300 group-hover:text-purple-200 transition-colors">
+                    BÔNUS 1
+                  </h3>
+                  <p className="text-purple-400 text-sm">Exclusivo para Alunos</p>
+                </div>
+              </div>
+              <h4 className="text-xl font-bold text-white mb-3">
+                +50 Templates Prontos para Viralizar
+              </h4>
+              <p className="text-gray-300 mb-4 leading-relaxed">
+                Acesse nossa biblioteca exclusiva com mais de 50 templates testados e aprovados que já geraram milhões de visualizações. Formatos prontos para usar no Instagram e TikTok, organizados por categoria e nicho.
+              </p>
+              <div className="flex items-center justify-between">
+                <div className="flex gap-2 text-sm text-purple-400">
+                  <span>✨ 50+ Templates</span>
+                  <span>📱 Prontos para usar</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-2xl font-bold text-green-400">R$ 5,99</span>
+                  <a 
+                    href="https://pay.kiwify.com.br/VXxAChm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-lg text-white font-medium transition-colors group-hover:shadow-lg group-hover:shadow-purple-500/30"
+                  >
+                    Acessar Agora
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Bonus 2 - Grupo de Ideias */}
+            <div className="bg-gradient-to-br from-purple-800/30 to-purple-900/30 rounded-2xl p-6 border border-purple-600/50 hover:border-purple-500 transition-all duration-300 group cursor-pointer">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="p-3 bg-gradient-to-br from-purple-500 to-purple-700 rounded-xl group-hover:scale-110 transition-transform duration-300">
+                  <MessageCircle className="w-8 h-8" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-purple-300 group-hover:text-purple-200 transition-colors">
+                    BÔNUS 2
+                  </h3>
+                  <p className="text-purple-400 text-sm">Comunidade VIP</p>
+                </div>
+              </div>
+              <h4 className="text-xl font-bold text-white mb-3">
+                Grupo de Novas Ideias Todos os Dias
+              </h4>
+              <p className="text-gray-300 mb-4 leading-relaxed">
+                Entre no nosso grupo exclusivo onde compartilhamos diariamente novas ideias de conteúdo, trends emergentes e oportunidades de viralização. Networking com outros criadores e suporte direto da nossa equipe.
+              </p>
+              <div className="flex items-center justify-between">
+                <div className="flex gap-2 text-sm text-purple-400">
+                  <span>💡 Ideias diárias</span>
+                  <span>🚀 Trends em tempo real</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <span className="text-2xl font-bold text-green-400">R$ 17,80</span>
+                  <a 
+                    href="https://pay.kiwify.com.br/ivtZEU0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-lg text-white font-medium transition-colors group-hover:shadow-lg group-hover:shadow-purple-500/30"
+                  >
+                    Entrar no Grupo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* Module Navigation */}
       <div className="bg-gray-900 border-b border-purple-800">
