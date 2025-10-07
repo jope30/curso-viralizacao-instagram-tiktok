@@ -317,7 +317,7 @@ export default function ViralCourse() {
                 <div className="flex items-center gap-3">
                   <span className="text-2xl font-bold text-green-400">R$ 5,99</span>
                   <a 
-                    href="https://pay.kiwify.com.br/VXxAChm"
+                    href="https://app.monetizze.com.br/checkout/DKE361187"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-lg text-white font-medium transition-colors group-hover:shadow-lg group-hover:shadow-purple-500/30"
@@ -355,7 +355,7 @@ export default function ViralCourse() {
                 <div className="flex items-center gap-3">
                   <span className="text-2xl font-bold text-green-400">R$ 17,80</span>
                   <a 
-                    href="https://pay.kiwify.com.br/ivtZEU0"
+                    href="https://app.monetizze.com.br/checkout/DGD361188"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-lg text-white font-medium transition-colors group-hover:shadow-lg group-hover:shadow-purple-500/30"
